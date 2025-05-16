@@ -133,3 +133,137 @@ Este poema describe un proceso iniciático de naturaleza chamánica, en el que e
 Al acceder a esa clave perdida, el iniciado descifra los Imlayan —la matriz oculta que conecta símbolos, sonidos y destino— y graba en discos de arcilla los signos que antes solo eran intuiciones. Pero en el acto mismo de compartir esa sabiduría, es quebrado: fragmentado por el acto de traducir lo inefable.
 
 Su conciencia, disuelta en los discos, permanece latente, vibrando desde dentro de cada símbolo. El conocimiento no está escrito en línea recta, sino codificado en patrones de sueño, disperso en fragmentos esperando ser despertados. Quien los reanime, no leerá: recordará.
+
+#pagebreak()
+
+= IMLAYAN N DIKRA
+
+_Discos de memoria_
+
+#pagebreak()
+
+#set rect(
+  inset: 8pt,
+  radius: 4pt,
+  fill: luma(230),
+  stroke: none,
+  width: 50%,
+)
+
+
+#grid(
+  columns: (25%, 25%, 25%, 25%),
+  rows: (auto, auto, auto),
+  gutter: 3pt,
+  grid.cell(
+    colspan: 1,
+    [#align(center + horizon)[
+      #text(size: 120pt)[ⴰ]
+    ]],
+  ),
+  grid.cell(
+    colspan: 3,
+    block(inset: 8pt)[
+      == WAKLAMÉ - YA
+
+      El sol en el cielo, las 11:11.
+      Despojado del peso del amanecer.
+      Pequeño en el cielo. El objetivo
+      final, visto desde el principio.
+
+      Impulso creativo con el lienzo en blanco.
+      Sensación de invencibilidad por ignorancia
+      del entorno. Fuego que guía.
+    ],
+  ),
+  grid.cell(
+    colspan:4,
+  align(center)[
+    #rect[
+        *aaaaaa*
+
+        *ae ai au*
+
+        *ua ia ea*
+
+        *aaaaaa*
+      ]
+    ]
+  ),
+  grid.cell(
+    colspan:2,
+    align(horizon)[
+      Espalda recta,
+      hombros activados
+      la mano abraza
+      el sol mirando
+      al este.
+    ]
+  ),
+  grid.cell(
+    colspan:2,
+    image("img/waklame.jpg"),
+  ),
+)
+
+#pagebreak()
+
+
+#grid(
+  columns: (25%, 25%, 25%, 25%),
+  rows: (auto, auto, auto),
+  gutter: 3pt,
+  grid.cell(
+    colspan: 1,
+    [#align(center + horizon)[
+      #text(size: 120pt)[ⴰ]
+    ]],
+  ),
+  grid.cell(
+    colspan: 3,
+    block(inset: 8pt)[
+      == KUTAMBER - YAB
+
+      Separación de clases sociales,
+arriba vs abajo. Abajo carga
+con el peso de arriba, los
+de abajo se preguntan por qué
+no son lo suficientemente
+fuertes, mientras los de
+arriba descansan. Rabia
+contenida. El ojo cerrado que
+no quiere ver. Peso del tronco del cuerpo
+sobre las piernas.
+
+    ],
+  ),
+  grid.cell(
+    colspan:4,
+  align(center)[
+    #rect[
+*b b b b b b b*
+
+*ba be bi bu*
+
+*bu bi be ba*
+
+*b b b b b b b*
+      ]
+    ]
+  ),
+  grid.cell(
+    colspan:2,
+    align(horizon)[
+      Sentadilla sumo
+con los pies
+abiertos.
+Todo el tronco apoyado
+en las rodillas con
+los codos.
+    ]
+  ),
+  grid.cell(
+    colspan:2,
+    image("img/kutamber.jpg"),
+  ),
+)
