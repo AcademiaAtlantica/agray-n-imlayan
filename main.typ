@@ -1,6 +1,13 @@
 #import "@preview/ilm:1.3.0": *
 
-#set text(lang: "es")
+#set text(
+  lang: "es",
+  font: (
+    "Libertinus Serif",
+    "Noto Sans Symbols",
+    "Noto Color Emoji",
+  )
+)
 
 #show: ilm.with(
   title: [Agray n Imlayan],
@@ -11,7 +18,7 @@
       
       *El libro de los discos.* 
       
-      Transferido por protocolo QKTP por *ⵡⴰⵉⵓⵜ* para poder
+      Transferido por protocolo QKTP por ⵡⴰⵉⵓⵜ para poder
       reinicializar el proceso de booteo del firmware intratemporal del proceso de 
       bootstrapping de autodeificación del individuo.
   ],
