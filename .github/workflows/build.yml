@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Typst
-        uses: lvignoli/typst-action@v0
+        uses: lvignoli/typst-action@main
         with:
           source_file: |
             main.typ
@@ -22,7 +22,6 @@ jobs:
           name: PDFs
           path: |
             main.pdf
-            letter.pdf
       - name: Get current date
         id: date
         run: echo "DATE=$(date +%Y-%m-%d-%H:%M)" >> $GITHUB_ENV
